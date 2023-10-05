@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+
+.main-text{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    border-bottom: 2px solid rgb(93, 124, 214);
+    width: 18rem;
+    margin-bottom: 2rem;
+}
+
+.main-text span{
+    color: rgb(177, 56, 237);
+}
+
+h2{
+    display: block;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 250px;
+    margin-left: auto;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* position: relative; */
+    margin: 0 80px;
+}
+.para{
+    /* display: flex; */
+        text-align:left;
+        line-height: 2rem;
+        font-size:1.2rem;
+        padding: 20px 20px;
+        color: rgb(30, 78, 220); 
+        /* margin-left: 3rem; */
+        border-left: 2px solid rgb(183, 97, 222);
+        height: 300px;
+
+    }
+
+.form-section{
+    margin-top: 25px;
+}
+.form-section p {
+    margin: 20px 0 ;
+}
+
+p{
+    font-size: 24px;
+    /* color: rgb(227, 105, 17); */
+    /* margin-left:29%; */
+    
+}
+
+.google-form {
+    background-color: #6dc712;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 0;
+    text-decoration: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60px;
+  }
+  
+  .google-form:hover {
+    background-color: #0463c9;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 900px;
+    height: 50px;
+    border-radius: 10px 10px;
+    background-color: #8ba49c;
+    border: 2px solid #495b63;
+    text-align: center;
+    line-height: 55px;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background:#c1b2b2;
+    border: 2px solid #333;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    line-height: 37px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.button-female {
+    border-radius: 10px 0 0 10px;
+}
+
+.button-male {
+    border-radius: 0 10px 10px 0;
+}
